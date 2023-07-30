@@ -29,7 +29,7 @@ def input(key):
     if key=="left mouse down":
         try:
             for chunk_face in chunk_faces:
-                if frame.position==chunk_face.position and -16<frame.y<16:
+                if frame.position==chunk_face.position and -1<frame.y<15:
                     destroy(chunk_face)
                     chunk_faces.remove(chunk_face)
                     elem=cube_faces[1]
