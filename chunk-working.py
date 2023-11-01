@@ -1,7 +1,7 @@
 from ursina import *
 from ursina.prefabs.first_person_controller import *
 from perlin_noise import *
-window.title="Minecraft Java Edition v1.20.1"
+window.title="Minecraft Java Edition v1.21"
 app=Ursina()
 window.borderless=False
 player=FirstPersonController(gravity=0,position=(0,2,0))
